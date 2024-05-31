@@ -1,3 +1,416 @@
 /* by using inline styling
 by using style tag
 by using external stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 3.75rem;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box 1 */
+
+.nav_logo {
+    height: 3.125rem;
+    width: 6.25rem;
+}
+
+.logo {
+    background-image: url("amazonLogo.png ");
+    background-size: contain;
+    height: 3.125rem;
+    width: 6.25rem;
+}
+
+.border {
+    border: .125rem solid transparent;
+}
+
+.border:hover {
+    border: .125rem solid white;
+}
+
+/* box 2 */
+
+.nav_address {
+    display: flex;
+}
+
+#ad_1 {
+    color: #cccccc;
+    padding-top: .4rem;
+}
+
+#ad_2 {
+    color: #ffffff;
+}
+
+#ad_logo {
+    width: 1.25rem;
+    padding-top: 1rem;
+}
+
+/* box 3 */
+
+.nav_search {
+    display: flex;
+    width: 56.25rem;
+    height: 2.5rem;
+    /* border-radius: 10%; */
+    /* background-color: palevioletred; */
+}
+
+.nav_search:hover {
+    border: .125rem solid orange;
+}
+
+#category {
+    border: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    /* margin-right: .125rem; */
+    background-color: #f3f3f3;
+    width: 3.125rem;
+}
+
+#search {
+    /* margin-right: 2px; */
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search_icon {
+    width: 2.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgba(250, 154, 0, 0.851);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: #0f1111;
+}
+
+/* box 4 */
+
+.region {
+    display: flex;
+}
+
+.flag {
+    margin: .125rem;
+}
+
+/* bax 5 */
+
+span {
+    font-size: 0.7rem;
+}
+
+#account {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+.nav_cart i {
+    font-size: 1.875rem;
+}
+
+.nav_cart {
+    font-weight: 700;
+}
+
+/* pannel */
+
+.panel {
+    display: flex;
+    height: 2.5rem;
+    background-color: #222f3d;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel_ops {
+    display: flex;
+}
+
+.panel_ops p {
+    margin: .3125rem;
+}
+
+/* hero section  */
+
+.hero {
+    background-image: url(hero\ image.jpg);
+    width: 100%;
+    height: 18.75rem;
+    background-size: cover;
+}
+
+/* shop section  */
+
+.shop_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f3dac4;
+}
+
+.box {
+    width: 23%;
+    height: 25rem;
+    background-color: #ffffff;
+    padding: 1.25rem 0rem .9375rem;
+    margin-bottom: 20px;
+}
+
+.box4_image {
+    background-image: url("pc_image.jpg");
+    height: 18.75rem;
+    width: 100%;
+    background-size: cover;
+    margin: 10px 0px 10px;
+}
+
+.box_content {
+    margin: 15px;
+}
+
+.box_content span {
+    color: #007185;
+}
+
+.box7_image {
+    background-image: url("box7_image.jpg");
+    height: 18.75rem;
+    width: 100%;
+    background-size: contain;
+    margin: 10px 0px 10px;
+}
+
+.box8_image {
+    background-image: url("box8_image.jpg");
+    height: 18.75rem;
+    width: 100%;
+    background-size: cover;
+    margin: 10px 0px 10px;
+}
+
+.box1_image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18.75rem;
+    width: 100%;
+    margin: 10px 0px 10px;
+    justify-content: space-evenly;
+}
+
+.box2_image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18.75rem;
+    width: 100%;
+    margin: 10px 0px 10px;
+    justify-content: space-evenly;
+}
+
+.box3_image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18.75rem;
+    width: 100%;
+    margin: 10px 0px 10px;
+    justify-content: space-evenly;
+}
+
+.box5_image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18.75rem;
+    width: 100%;
+    margin: 10px 0px 10px;
+    justify-content: space-evenly;
+}
+
+.box6_image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18.75rem;
+    width: 100%;
+    margin: 10px 0px 10px;
+    justify-content: space-evenly;
+}
+
+.subImage {
+    width: 40%;
+    height: 40%;
+    background-color: pink;
+    background-size: cover;
+}
+
+.c1e1 {
+    background-image: url("box\ 1/headphone.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+}
+
+.c1e2 {
+    background-image: url("box\ 1/keyboard.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c1e3 {
+    background-image: url("box\ 1/mouse.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c1e4 {
+    background-image: url("box\ 1/Gchair.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c2e1 {
+    background-image: url("box\ 2/1.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+}
+
+.c2e2 {
+    background-image: url("box\ 2/2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c2e3 {
+    background-image: url("box\ 2/3.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c2e4 {
+    background-image: url("box\ 2/4.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c3e1 {
+    background-image: url("box\ 3/1.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+}
+
+.c3e2 {
+    background-image: url("box\ 3/2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c3e3 {
+    background-image: url("box\ 3/3.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c3e4 {
+    background-image: url("box\ 3/4.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c5e1 {
+    background-image: url("box\ 5/1.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+}
+
+.c5e2 {
+    background-image: url("box\ 5/2.jpg");
+    width: 110px;
+    height: 70px;
+    background-size: contain;
+    margin-right: 2px;
+}
+
+.c5e3 {
+    background-image: url("box\ 5/3.jpg");
+    width: 110px;
+    height: 70px;
+    background-size: contain;
+    margin-right: 2px;
+}
+
+.c5e4 {
+    background-image: url("box\ 5/4.jpg");
+    width: 110px;
+    height: 70px;
+    background-size: contain;
+}
+
+.c6e1 {
+    background-image: url("box\ 6/1.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+}
+
+.c6e2 {
+    background-image: url("box\ 6/2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c6e3 {
+    background-image: url("box\ 6/3.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.c6e4 {
+    background-image: url("box\ 6/4.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.box5_image1 {
+    width: 100%;
+    height: 50%;
+}
+
+.box5_image2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    margin-top: 1.25rem;
+}
